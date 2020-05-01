@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 
-const token ="";
+const {token} =require('./config.json');
 const prefix = "!";
 
 var fortunes = [
