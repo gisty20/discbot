@@ -15,4 +15,4 @@ open command line and go to the projects directory, then type:
 
 node name.js
 
-where node is the name of the Javascript file
+where "name" is the name of the Javascript file
