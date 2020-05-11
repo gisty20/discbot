@@ -147,8 +147,11 @@ bot.on("message", function(message) {
         /*265266300496904192*/
 
        /* default:
-            message.guild.members.get('265266300496904192').kick();
-            message.channel.sendMessage("bye brandon")
+       message.guild.members.get('265266300496904192').kick();
+       message.channel.sendMessage("bye brandon")
+       bot.fetchUser('265266300496904192').then((user) => {
+         user.send("bye");
+       });
             */
 
     }
